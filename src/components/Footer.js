@@ -1,5 +1,13 @@
 function Footer (props) {
-    return <h1>Footer</h1>
+    return (
+        <div>
+            <footer>
+                <p class="footer-text">
+                    Tani Robinson Portfolio. The source code is licensed.
+                </p>
+            </footer>
+        </div>
+    )
 }
 
 export default Footer
